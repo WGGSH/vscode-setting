@@ -1,0 +1,8 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入します
+[
+  { 
+    "key": "ctrl+shift+tab","command": "extension.toggleWhitespacePlus", "when": "editorTextFocus" ,
+
+    // "key": "ctrl+shift+tab","command": "extension.toggleWhitespacePlusMode",
+  }
+]

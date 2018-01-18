@@ -1,0 +1,22 @@
+{
+	"name": "mytheme",
+	"displayName": "mytheme",
+	"description": "",
+	"version": "1.0.0",
+	"publisher": "",
+	"engines": {
+		"vscode": "^1.17.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "MyTheme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/MyTheme.json"
+			}
+		]
+	}
+}

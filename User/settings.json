@@ -1,0 +1,71 @@
+{
+  // ウィンドウ設定
+  "window.zoomLevel": 0, // 拡大率
+  "window.menuBarVisibility": "toggle", // Altキーでメニューバーの表示切り替え
+
+  
+  // エディター設定
+  "editor.codeLens": false,
+  "editor.wordWrap": "on", // 右端で折り返す
+  "editor.tabSize": 2, // タブ文字の空白数
+  "editor.lineHeight": 18, // 行の高さ
+  // "editor.detectIndentation":false,
+  "editor.renderLineHighlight": "line", // 選択中の行を強調する
+  "editor.fontFamily": "'Migu 1M'", // フォント
+  "editor.glyphMargin": false, // 余白を消す
+  "editor.roundedSelection": true, // 選択範囲の角を丸める
+  "editor.quickSuggestions": true, // 補完候補の自動表示
+  "editor.formatOnType": true, // コード整形
+  "editor.cursorStyle": "line", // カーソルの形状
+  "editor.rulers": [110], // 右端のルーラー位置
+  "editor.folding": true, // コードの折りたたみを許可
+  "editor.letterSpacing": -0.6, // 文字の間隔を詰める
+  "editor.lineNumbers": "on", // 行番号の表示
+  "editor.minimap.enabled": true, // ミニマップの表示
+  "editor.scrollBeyondLastLine": false, // 最終行よりも下へのスクロールを禁止
+  "editor.renderControlCharacters": true, // 制御文字の表示
+  // "editor.renderWhitespace": "boundary", // 連続した空白文字を可視化
+  "editor.insertSpaces": false, // Tabキーで半角スペースを入力
+  "editor.fontSize": 18, //  文字サイズ
+  "editor.renderIndentGuides": true, // インデントのガイドラインを表示
+
+
+  // ターミナル
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\bash.exe", // Bashへのパス
+  "terminal.integrated.fontFamily": "'Migu 1M'", // フォント
+  "terminal.integrated.fontSize": 18, // フォントサイズ
+
+  // ファイル設定
+  "files.autoSave": "off", //ダーティファイルの作成を無効
+  "files.eol": "\n",  // 改行コードをLF(Linux/OSX)にする
+  "files.insertFinalNewline": false, // ファイルの終端に空の行を追加を無効
+  // エクスプローラーから除外するファイルとフォルダ
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/bin": true,
+    "**/*.exe": true,
+    "**/*.o": true,
+    "**/*.obj": true,
+    "**/*.ilk": true,
+    "**/*.pdb": true,
+    "**/*.tlog": true,
+    "**/*.idb": true,
+    "**/*.dll": true
+    // "**.vs": true 
+  },
+
+  // ワークベンチ設定
+  "workbench.activityBar.visible": false, // アクティビティバーを非表示に
+  "workbench.sideBar.location": "left", // サイドバーを左に
+  "workbench.colorTheme": "MyTheme", // 配色テーマ
+
+  // Git
+  "git.path": "C:\\wslgit.exe",
+  
+  
+
+}
