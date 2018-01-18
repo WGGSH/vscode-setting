@@ -62,7 +62,7 @@
   "workbench.activityBar.visible": false, // アクティビティバーを非表示に
   "workbench.sideBar.location": "left", // サイドバーを左に
   "workbench.colorTheme": "MyTheme", // 配色テーマ
-
+  
   // Git
   "git.path": "C:\\wslgit.exe",
   
