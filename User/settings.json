@@ -1,20 +1,25 @@
 {
   // ウィンドウ設定
-  "window.zoomLevel": 0, // 拡大率
+  "window.zoomLevel": -1.3, // 拡大率
   "window.menuBarVisibility": "toggle", // Altキーでメニューバーの表示切り替え
+  "window.title": "${appName}", // タイトルバーの文字
 
   
   // エディター設定
   "editor.codeLens": false,
   "editor.wordWrap": "on", // 右端で折り返す
   "editor.tabSize": 2, // タブ文字の空白数
-  "editor.lineHeight": 18, // 行の高さ
+  "editor.lineHeight": 22, // 行の高さ
   // "editor.detectIndentation":false,
   "editor.renderLineHighlight": "line", // 選択中の行を強調する
   "editor.fontFamily": "'Migu 1M'", // フォント
   "editor.glyphMargin": false, // 余白を消す
   "editor.roundedSelection": true, // 選択範囲の角を丸める
-  "editor.quickSuggestions": true, // 補完候補の自動表示
+  "editor.quickSuggestions": {
+    "comments": false, // コメント内では無効
+    "strings": true, // 文字列内では有効
+    "other": true //  その他の場所で有効
+  }, // 補完候補の自動表示
   "editor.formatOnType": true, // コード整形
   "editor.cursorStyle": "line", // カーソルの形状
   "editor.rulers": [110], // 右端のルーラー位置
@@ -26,8 +31,11 @@
   "editor.renderControlCharacters": true, // 制御文字の表示
   // "editor.renderWhitespace": "boundary", // 連続した空白文字を可視化
   "editor.insertSpaces": false, // Tabキーで半角スペースを入力
-  "editor.fontSize": 18, //  文字サイズ
+  "editor.fontSize": 23, //  文字サイズ
   "editor.renderIndentGuides": true, // インデントのガイドラインを表示
+  "editor.minimap.renderCharacters": false, // ミニマップを簡略化
+  "editor.minimap.showSlider": "always", // ミニマップのハイライトを常に表示
+  "editor.autoIndent": true, // オートインデント 
 
 
   // ターミナル
@@ -58,10 +66,19 @@
     // "**.vs": true 
   },
 
+
   // ワークベンチ設定
   "workbench.activityBar.visible": false, // アクティビティバーを非表示に
   "workbench.sideBar.location": "left", // サイドバーを左に
   "workbench.colorTheme": "MyTheme", // 配色テーマ
+
+  // クラッシュレポートを送信する
+  "telemetry.enableCrashReporter": true,
+  "telemetry.enableTelemetry": true,
+
+  // 拡張機能関連
+  "extensions.autoUpdate": true, // 自動更新
+  "extensions.ignoreRecommendations": false, // 推奨事項の通知をOFF
 
   // Git
   "git.path": "C:\\wslgit.exe",
