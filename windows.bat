@@ -1,11 +1,16 @@
 @echo off
-:: Userä»¥ä¸‹ã®è¨­å®šãƒ•ã‚¡ã‚¤ãƒ«ã®ãƒªãƒ³ã‚¯ã‚’ç”Ÿæˆ
-:: Linux : $HOME/.config/Code/User
-:: keybindings.json, settings.json, snippets etc...
+rem UserˆÈ‰º‚Ìİ’èƒtƒ@ƒCƒ‹‚ÌƒŠƒ“ƒN‚ğ¶¬
+rem Linux : $HOME/.config/Code/User
+rem keybindings.json, settings.json, snippets etc...
 mklink /D C:\Users\%USERNAME%\AppData\Roaming\Code\User %CD%\User
 
-:: æ‹¡å¼µæ©Ÿèƒ½ã®ãƒªãƒ³ã‚¯ã‚’ç”Ÿæˆ
-:: Linux : $HOME/.vscode/extensions/
+rem Šg’£‹@”\‚ÌƒCƒ“ƒXƒg[ƒ‹
+for /f %%a in (extension-list) do (
+  code --install-extension %%a
+)
+
+rem Šg’£‹@”\‚ÌƒŠƒ“ƒN‚ğ¶¬
+rem Linux : $HOME/.vscode/extensions/
 for /f "usebackq" %%i in (`dir /B %CD%\extensions\*`) do (
-	mklink /D C:\Users\%USERNAME%\.vscode\extensions\%%i %CD%\extensions\%%i
+  mklink /D C:\Users\%USERNAME%\.vscode\extensions\%%i %CD%\extensions\%%i
 )
