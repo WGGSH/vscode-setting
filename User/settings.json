@@ -71,6 +71,7 @@
   "workbench.activityBar.visible": false, // アクティビティバーを非表示に
   "workbench.sideBar.location": "left", // サイドバーを左に
   "workbench.colorTheme": "MyTheme", // 配色テーマ
+  "workbench.iconTheme": "vscode-icons", // アイコンの適用
 
   // クラッシュレポートを送信する
   "telemetry.enableCrashReporter": true,
@@ -82,7 +83,5 @@
 
   // Git
   "git.path": "C:\\wslgit.exe",
-  
-  
 
 }
