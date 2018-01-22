@@ -2,9 +2,9 @@
   // ウィンドウ設定
   "window.zoomLevel": -1.3, // 拡大率
   "window.menuBarVisibility": "toggle", // Altキーでメニューバーの表示切り替え
-  "window.title": "${appName}", // タイトルバーの文字
+  "window.title": "${dirty}${activeEditorShort} / ${rootName}", // タイトルバーの文字
 
-  
+
   // エディター設定
   "editor.codeLens": false,
   "editor.wordWrap": "on", // 右端で折り返す
