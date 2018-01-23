@@ -46,7 +46,7 @@
   // ファイル設定
   "files.autoSave": "off", //ダーティファイルの作成を無効
   "files.eol": "\n",  // 改行コードをLF(Linux/OSX)にする
-  "files.insertFinalNewline": false, // ファイルの終端に空の行を追加を無効
+  "files.insertFinalNewline": true, // ファイルの終端に空の行を追加
   // エクスプローラーから除外するファイルとフォルダ
   "files.exclude": {
     "**/.git": true,
@@ -70,7 +70,7 @@
   // ワークベンチ設定
   "workbench.activityBar.visible": false, // アクティビティバーを非表示に
   "workbench.sideBar.location": "left", // サイドバーを左に
-  "workbench.colorTheme": "MyTheme", // 配色テーマ
+  "workbench.colorTheme": "Monokai Sharp", // 配色テーマ
   "workbench.iconTheme": "vscode-icons", // アイコンの適用
 
   // クラッシュレポートを送信する
