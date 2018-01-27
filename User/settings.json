@@ -84,4 +84,11 @@
   // Git
   "git.path": "C:\\wslgit.exe",
 
+  // markdown
+  "markdown.styles": [
+    "/home/nao/workspace/git_repos/vscode-setting/md_preview.css"
+  ]
+
+  
+
 }
