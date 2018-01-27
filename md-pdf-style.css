@@ -1,0 +1,63 @@
+* {
+	padding: 0px 0px;
+	margin: 0px 0px:
+}
+
+/* 見出し */
+h1 {
+	padding: -20px 10px;
+	/* margin: 20px 0; */
+	margin: 20px -20px;
+	border-bottom: 5px solid #666;
+	/* border-left: 5px solid #666; */
+}
+
+h2 {
+	padding: -10px 30px;
+	margin: 0px -10px;
+	/* margin: 20px 0; */
+	border-bottom: 5px solid #666;
+	/* border-left: 5px solid #666; */
+}
+
+h3 {
+	/* padding: 0px 10px; */
+	margin: 0px 0px;
+	border-bottom: 3px solid #666;
+	/* border-left: 3px solid #666; */
+}
+
+h4 {
+	padding: 1px 30px;
+	margin: 0px 40px;
+	border-bottom: 3px solid #666;
+	/* border-left: 3px solid #666; */
+}
+
+/* 本文 */
+p {
+	/* color: white; */
+	padding: 0px 20px;
+}
+
+/* 太字 */
+strong {
+	color: orangered;
+	font-size: 120%;
+}
+
+/* 箇条書き */
+ul {
+	list-style-type: decimal;
+	padding: 0px 20px;
+	/* margin: -40px 0px; */
+}
+
+/* 入れ子の箇条書き */
+ul ul{
+	margin: -6px -5px;
+	/* padding: 10px 0px; */
+	/* margin: 10px 10px;
+	border-left: 2px solid #666; */
+	list-style-type: circle;
+}
