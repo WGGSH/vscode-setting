@@ -87,8 +87,10 @@
   // markdown
   "markdown.styles": [
     "/home/nao/workspace/git_repos/vscode-setting/md_preview.css"
-  ]
+  ],
 
-  
+  "markdown.styles": [
+    "C:\\mydata\\wgg\\univ\\vscode-setting\\md_preview.css"
+  ],
 
 }
