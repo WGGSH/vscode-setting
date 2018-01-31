@@ -86,11 +86,14 @@
 
   // markdown
   "markdown.styles": [
-    "/home/nao/workspace/git_repos/vscode-setting/md_preview.css"
+    // "C:\\mydata\\wgg\\univ\\vscode-setting\\md_preview.css",
+    "/home/nao/workspace/git_repos/vscode-setting/md_preview.css",
   ],
 
-  "markdown.styles": [
-    "C:\\mydata\\wgg\\univ\\vscode-setting\\md_preview.css"
-  ],
+  "markdown.preview.breaks": true, // 改行を反映
+  "markdown.preview.fontSize": 22, // 文字サイズ
+  "markdown.preview.lineHeight": 1.1, // 行幅
+  "markdown-pdf.convertOnSave": true,
+  "markdown-pdf.type": "html",
 
 }
