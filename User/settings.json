@@ -47,6 +47,7 @@
   "files.autoSave": "off", //ダーティファイルの作成を無効
   "files.eol": "\n",  // 改行コードをLF(Linux/OSX)にする
   "files.insertFinalNewline": true, // ファイルの終端に空の行を追加
+  "files.autoGuessEncoding": true, // 文字コードを自動判別
   // エクスプローラーから除外するファイルとフォルダ
   "files.exclude": {
     "**/.git": true,
