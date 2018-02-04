@@ -1,0 +1,56 @@
+/* 見出し */
+h1 {
+	padding: 0 10px;
+	margin: 20px 0;
+	border-bottom: 5px solid #fff;
+	border-left: 5px solid #fff;
+}
+
+h2 {
+	padding: 10px 30px;
+	margin: 20px 0;
+	border-bottom: 5px solid #fff;
+	border-left: 5px solid #fff;
+}
+
+h3 {
+	padding: 2px 50px;
+	margin: 0px 20px;
+	border-bottom: 3px solid #fff;
+	border-left: 3px solid #fff;
+}
+
+h4 {
+	padding: 1px 30px;
+	margin: 0px 40px;
+	border-bottom: 3px solid #fff;
+	border-left: 3px solid #fff;
+}
+
+/* 本文 */
+p {
+	color: white;
+	padding: 0px 20px;
+}
+
+/* 太字 */
+strong {
+	color: red;
+	font-size: 120%;
+}
+
+/* 箇条書き */
+ul {
+	list-style-type: decimal;
+}
+
+/* 入れ子の箇条書き */
+ul ul{
+	margin: 0px -25px;
+	/* margin: 10px 10px;
+	border-left: 2px solid #fff; */
+	list-style-type: circle;
+}
+
+ul li {
+}
