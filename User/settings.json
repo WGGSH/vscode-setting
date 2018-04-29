@@ -3,17 +3,17 @@
   "window.zoomLevel": -1.3, // 拡大率
   "window.menuBarVisibility": "toggle", // Altキーでメニューバーの表示切り替え
   "window.title": "${dirty}${activeEditorShort} / ${rootName}", // タイトルバーの文字
-
+  "window.closeWhenEmpty": false,
 
   // エディター設定
   "editor.codeLens": false,
   "editor.wordWrap": "on", // 右端で折り返す
-  "editor.tabSize": 2, // タブ文字の空白数
-  "editor.lineHeight": 22, // 行の高さ
-  // "editor.detectIndentation":false,
-  "editor.renderLineHighlight": "line", // 選択中の行を強調する
+  "editor.tabSize": 2,
+  "editor.lineHeight": 20,
+  "editor.detectIndentation":false,
+  "editor.renderLineHighlight": "all", // 選択中の行を強調する
   "editor.fontFamily": "'Migu 1M'", // フォント
-  // "editor.glyphMargin": false, // 余白を消す
+  "editor.glyphMargin": true, // 行の左端に余白を作る
   "editor.roundedSelection": true, // 選択範囲の角を丸める
   "editor.quickSuggestions": {
     "comments": false, // コメント内では無効
@@ -21,8 +21,8 @@
     "other": true //  その他の場所で有効
   }, // 補完候補の自動表示
   "editor.formatOnType": true, // コード整形
-  "editor.cursorStyle": "line", // カーソルの形状
-  "editor.rulers": [110], // 右端のルーラー位置
+  "editor.formatOnPaste": true, // コード整形
+  "editor.rulers": [100], // 右端のルーラー位置
   "editor.folding": true, // コードの折りたたみを許可
   "editor.letterSpacing": -0.6, // 文字の間隔を詰める
   "editor.lineNumbers": "on", // 行番号の表示
@@ -30,12 +30,23 @@
   "editor.scrollBeyondLastLine": false, // 最終行よりも下へのスクロールを禁止
   "editor.renderControlCharacters": true, // 制御文字の表示
   // "editor.renderWhitespace": "boundary", // 連続した空白文字を可視化
-  "editor.insertSpaces": false, // Tabキーで半角スペースを入力
+  "editor.insertSpaces": true, // Tabキーで半角スペースを入力
   "editor.fontSize": 23, //  文字サイズ
   "editor.renderIndentGuides": true, // インデントのガイドラインを表示
   "editor.minimap.renderCharacters": false, // ミニマップを簡略化
   "editor.minimap.showSlider": "always", // ミニマップのハイライトを常に表示
-  "editor.autoIndent": true, // オートインデント 
+  "editor.minimap.side": "right", // ミニマップを右に表示
+  "editor.autoIndent": false, // オートインデント
+  "editor.cursorStyle": "line", // カーソルの形状
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorWidth": 5,
+  "editor.emptySelectionClipboard": true, // 選択範囲無しでのコピーを許可
+  "editor.links": true, // リンクをクリック可能に
+  "editor.matchBrackets": true, // 対応する括弧の強調表示をオンに
+  "editor.mouseWheelScrollSensitivity": 0.7, // マウスホイール回転の移動係数
+  "editor.mouseWheelZoom": false, // Ctrl+マウスホイールによるズームを無効化
+  "editor.suggestFontSize": 24, // サジェストの文字サイズ
+  "editor.suggestLineHeight": 20, // サジェスト欄の行の高さ
 
 
   // ターミナル
@@ -64,15 +75,15 @@
     "**/*.tlog": true,
     "**/*.idb": true,
     "**/*.dll": true
-    // "**.vs": true 
+    // "**.vs": true
   },
 
 
   // ワークベンチ設定
   "workbench.activityBar.visible": false, // アクティビティバーを非表示に
   "workbench.sideBar.location": "left", // サイドバーを左に
-  "workbench.colorTheme": "Monokai Sharp", // 配色テーマ
-  "workbench.iconTheme": "vscode-icons", // アイコンの適用
+  "workbench.colorTheme": "Monokai High Contrast",
+  "workbench.iconTheme": "eq-material-theme-icons", // アイコンの適用
 
   // クラッシュレポートを送信する
   "telemetry.enableCrashReporter": true,
@@ -89,14 +100,11 @@
   "markdown.preview.breaks": true, // 改行を反映
   "markdown.preview.fontSize": 22, // 文字サイズ
   "markdown.preview.lineHeight": 1.1, // 行幅
-  "markdown.styles": [ // プレビュー時のCSS
-    "C:\\mydata\\wgg\\univ\\vscode-setting\\markdown_pdf.css"
-  ],
 
   // markdown-pdf
   "markdown-pdf.convertOnSave": false, // 保存時に自動でpdf化しない
   "markdown-pdf.type": "pdf", // PDFで出力
-  "markdown-pdf.styles": [ // PDF出力時のCSS
-    "C:\\mydata\\wgg\\univ\\vscode-setting\\markdown_pdf.css"
-  ]
+
+  // c# fixformat
+  "csharp.format.enable": false,
 }
