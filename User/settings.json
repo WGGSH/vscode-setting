@@ -13,7 +13,7 @@
   // "editor.detectIndentation":false,
   "editor.renderLineHighlight": "line", // 選択中の行を強調する
   "editor.fontFamily": "'Migu 1M'", // フォント
-  "editor.glyphMargin": false, // 余白を消す
+  // "editor.glyphMargin": false, // 余白を消す
   "editor.roundedSelection": true, // 選択範囲の角を丸める
   "editor.quickSuggestions": {
     "comments": false, // コメント内では無効
@@ -39,7 +39,7 @@
 
 
   // ターミナル
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\bash.exe", // Bashへのパス
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe", // Bashへのパス
   "terminal.integrated.fontFamily": "'Migu 1M'", // フォント
   "terminal.integrated.fontSize": 18, // フォントサイズ
 
@@ -90,13 +90,13 @@
   "markdown.preview.fontSize": 22, // 文字サイズ
   "markdown.preview.lineHeight": 1.1, // 行幅
   "markdown.styles": [ // プレビュー時のCSS
-    "https://raw.githubusercontent.com/WGGSH/vscode-setting/master/markdown_preview.css",
+    "C:\\mydata\\wgg\\univ\\vscode-setting\\markdown_pdf.css"
   ],
 
   // markdown-pdf
   "markdown-pdf.convertOnSave": false, // 保存時に自動でpdf化しない
   "markdown-pdf.type": "pdf", // PDFで出力
   "markdown-pdf.styles": [ // PDF出力時のCSS
-    "https://raw.githubusercontent.com/WGGSH/vscode-setting/master/markdown_pdf.css"
+    "C:\\mydata\\wgg\\univ\\vscode-setting\\markdown_pdf.css"
   ]
 }
