@@ -9,7 +9,7 @@
   "editor.codeLens": false,
   "editor.wordWrap": "on", // 右端で折り返す
   "editor.tabSize": 2,
-  "editor.lineHeight": 20,
+  "editor.lineHeight": 26,
   "editor.detectIndentation":false,
   "editor.renderLineHighlight": "all", // 選択中の行を強調する
   "editor.fontFamily": "'Migu 1M'", // フォント
@@ -31,7 +31,7 @@
   "editor.renderControlCharacters": true, // 制御文字の表示
   // "editor.renderWhitespace": "boundary", // 連続した空白文字を可視化
   "editor.insertSpaces": true, // Tabキーで半角スペースを入力
-  "editor.fontSize": 23, //  文字サイズ
+  "editor.fontSize": 29, //  文字サイズ
   "editor.renderIndentGuides": true, // インデントのガイドラインを表示
   "editor.minimap.renderCharacters": false, // ミニマップを簡略化
   "editor.minimap.showSlider": "always", // ミニマップのハイライトを常に表示
@@ -51,7 +51,7 @@
   // ターミナル
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe", // Bashへのパス
   "terminal.integrated.fontFamily": "'Migu 1M'", // フォント
-  "terminal.integrated.fontSize": 18, // フォントサイズ
+  "terminal.integrated.fontSize": 22, // フォントサイズ
 
   // ファイル設定
   "files.autoSave": "off", //ダーティファイルの作成を無効
