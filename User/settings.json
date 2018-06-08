@@ -1,6 +1,6 @@
 {
   // ウィンドウ設定
-  "window.zoomLevel": -1.3, // 拡大率
+  "window.zoomLevel": -2, // 拡大率
   "window.menuBarVisibility": "toggle", // Altキーでメニューバーの表示切り替え
   "window.title": "${dirty}${activeEditorShort} / ${rootName}", // タイトルバーの文字
   "window.closeWhenEmpty": false,
@@ -9,10 +9,10 @@
   "editor.codeLens": false,
   "editor.wordWrap": "on", // 右端で折り返す
   "editor.tabSize": 2,
-  "editor.lineHeight": 26,
+  "editor.lineHeight": 28,
   "editor.detectIndentation":false,
   "editor.renderLineHighlight": "all", // 選択中の行を強調する
-  "editor.fontFamily": "'Migu 1M'", // フォント
+  "editor.fontFamily": "'Roboto Mono'", // フォント
   "editor.glyphMargin": true, // 行の左端に余白を作る
   "editor.roundedSelection": true, // 選択範囲の角を丸める
   "editor.quickSuggestions": {
@@ -49,8 +49,8 @@
   "editor.suggestLineHeight": 24, // サジェスト欄の行の高さ
 
   // ターミナル
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe", // Bashへのパス
-  "terminal.integrated.fontFamily": "'Migu 1M'", // フォント
+  // "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe", // Bashへのパス
+  "terminal.integrated.fontFamily": "'Andale Mono'", // フォント
   "terminal.integrated.fontSize": 22, // フォントサイズ
 
   // ファイル設定
@@ -84,8 +84,8 @@
   "workbench.editor.tabSizing": "shrink", // タブが多い場合,文字を非表示にしてもタブ表示を優先する
   "workbench.statusBar.visible": true, // ステータスバー(下端)を表示
   "workbench.sideBar.location": "left", // サイドバーを左に
-  "workbench.colorTheme": "Breeze Dark Theme", // カラーテーマ
-  "workbench.iconTheme": "vscode-icons", // アイコンの適用
+"workbench.colorTheme": "Breeze Dark Theme", // カラーテーマ
+  "workbench.iconTheme": "eq-material-theme-icons", // アイコンの適用
   "workbench.colorCustomizations": { // カラーテーマに上書きする個別の設定
     "statusBar.background": "#000000", // ステータスバー背景色
     "statusBar.noFolderBackground": "#000000",
@@ -141,4 +141,22 @@
 
   // c# fixformat
   "csharp.format.enable": false,
+
+  // clang-formatの実行ファイルへのフルパス
+  // 拡張機能のインストール時にダウンロードされるので設定する必要は無い
+  "C_Cpp.clang_format_path": null,
+  // clang-formatでコード整形する時のスタイルを設定する
+  // デフォルトはワークスペースルートとその親フォルダに`.clang-format`ファイルがある場合はその設定値を使用し、
+  // .clang-formatファイルが無い場合はC_Cpp.clang_format_fallbackStyleで代わりの設定を実行される
+  "C_Cpp.clang_format_style": "file",
+  // C_Cpp.clang_format_styleが実行できなかった時に代わりに実行される書式設定を指定する
+  "C_Cpp.clang_format_fallbackStyle": "Visual Studio",
+  // includeをソートするかを設定
+  // この設定値は.clang-formatファイルのSortIncludesプロパティを上書きする
+  "C_Cpp.clang_format_sortIncludes": null,
+  // ファイルの保存時に自動整形を有効にする
+  // "C_Cpp.clang_format_formatOnSave": false,
+  // `Default`はコードフォーマットを有効にし、`Disabled`は無効にする。
+  "C_Cpp.formatting": "Default",
+
 }
