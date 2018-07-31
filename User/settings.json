@@ -1,6 +1,6 @@
 {
   // ウィンドウ設定
-  "window.zoomLevel": -2, // 拡大率
+  "window.zoomLevel": -1, // 拡大率
   "window.menuBarVisibility": "toggle", // Altキーでメニューバーの表示切り替え
   "window.title": "${dirty}${activeEditorShort} / ${rootName}", // タイトルバーの文字
   "window.closeWhenEmpty": false,
@@ -24,14 +24,15 @@
   "editor.formatOnPaste": true, // コード整形
   // "editor.rulers": [100], // 右端のルーラー位置
   "editor.folding": true, // コードの折りたたみを許可
-  "editor.letterSpacing": -0.6, // 文字の間隔を詰める
+  "editor.letterSpacing": -1, // 文字の間隔を詰める
   "editor.lineNumbers": "on", // 行番号の表示
   "editor.minimap.enabled": true, // ミニマップの表示
+  "editor.minimap.maxColumn": 40, // ミニマップの幅
   "editor.scrollBeyondLastLine": true, // 最終行よりも下へのスクロールを許可
   "editor.renderControlCharacters": true, // 制御文字の表示
   // "editor.renderWhitespace": "boundary", // 連続した空白文字を可視化
   "editor.insertSpaces": true, // Tabキーで半角スペースを入力
-  "editor.fontSize": 29, //  文字サイズ
+  "editor.fontSize": 20, //  文字サイズ
   "editor.renderIndentGuides": true, // インデントのガイドラインを表示
   "editor.minimap.renderCharacters": false, // ミニマップを簡略化
   "editor.minimap.showSlider": "always", // ミニマップのハイライトを常に表示
@@ -49,8 +50,8 @@
   "editor.suggestLineHeight": 24, // サジェスト欄の行の高さ
 
   // ターミナル
-  // "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe", // Bashへのパス
-  "terminal.integrated.fontFamily": "'Andale Mono'", // フォント
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe", // WSLへのパス
+  "terminal.integrated.fontFamily": "'Roboto Mono'", // フォント
   "terminal.integrated.fontSize": 22, // フォントサイズ
 
   // ファイル設定
@@ -66,7 +67,7 @@
     "**/CVS": true,
     "**/.DS_Store": true,
     "**/bin": true,
-    "**/*.exe": true,
+    //"**/*.exe": true,
     "**/*.o": true,
     "**/*.obj": true,
     "**/*.ilk": true,
@@ -74,7 +75,7 @@
     "**/*.tlog": true,
     "**/*.idb": true,
     "**/*.dll": true
-    // "**.vs": true (※除外するとUnityで正常に動かない)
+    // "**.vs": true,
   },
 
 
@@ -84,7 +85,7 @@
   "workbench.editor.tabSizing": "shrink", // タブが多い場合,文字を非表示にしてもタブ表示を優先する
   "workbench.statusBar.visible": true, // ステータスバー(下端)を表示
   "workbench.sideBar.location": "left", // サイドバーを左に
-"workbench.colorTheme": "Breeze Dark Theme", // カラーテーマ
+  "workbench.colorTheme": "Breeze Dark Theme", // カラーテーマ
   "workbench.iconTheme": "eq-material-theme-icons", // アイコンの適用
   "workbench.colorCustomizations": { // カラーテーマに上書きする個別の設定
     "statusBar.background": "#000000", // ステータスバー背景色
@@ -113,6 +114,9 @@
     "scrollbar.shadow": "#0077ff99",
     "editorLink.activeForeground": "#5555ce",
   },
+
+  "glassit.alpha": 255,
+  "glassit.step": 1,
 
   // クラッシュレポートを送信する
   "telemetry.enableCrashReporter": true,
@@ -159,4 +163,9 @@
   // `Default`はコードフォーマットを有効にし、`Disabled`は無効にする。
   "C_Cpp.formatting": "Default",
 
+
+  // CMake
+  "cmake.cmakePath": "C:\\Program Files\\download\\CMake\\bin\\cmake.exe",
+  "cmake-tools-helper.cmake_download_path": "~\\.vscode\\extensions\\maddouri.cmake-tools-helper-0.2.1\\cmake_download",
+  
 }
