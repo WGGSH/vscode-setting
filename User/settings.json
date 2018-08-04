@@ -9,7 +9,7 @@
   "editor.codeLens": false,
   "editor.wordWrap": "on", // 右端で折り返す
   "editor.tabSize": 2,
-  "editor.lineHeight": 28,
+  "editor.lineHeight": 23,
   "editor.detectIndentation":false,
   "editor.renderLineHighlight": "all", // 選択中の行を強調する
   "editor.fontFamily": "'Roboto Mono'", // フォント
@@ -49,6 +49,10 @@
   "editor.suggestFontSize": 24, // サジェストの文字サイズ
   "editor.suggestLineHeight": 24, // サジェスト欄の行の高さ
 
+  // ZenMode
+  "zenMode.centerLayout": false, 
+  "zenMode.hideTabs": false,
+
   // ターミナル
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe", // WSLへのパス
   "terminal.integrated.fontFamily": "'Roboto Mono'", // フォント
@@ -80,8 +84,7 @@
 
 
   // ワークベンチ設定
-  "workbench.editor.showTabs": true, // タブを表示
-  "workbench.activityBar.visible": false, // アクティビティバー(左端)を非表示に
+  "workbench.editor.showTabs": true, // アクティビティバー(左端)を非表示に
   "workbench.editor.tabSizing": "shrink", // タブが多い場合,文字を非表示にしてもタブ表示を優先する
   "workbench.statusBar.visible": true, // ステータスバー(下端)を表示
   "workbench.sideBar.location": "left", // サイドバーを左に
@@ -167,5 +170,6 @@
   // CMake
   "cmake.cmakePath": "C:\\Program Files\\download\\CMake\\bin\\cmake.exe",
   "cmake-tools-helper.cmake_download_path": "~\\.vscode\\extensions\\maddouri.cmake-tools-helper-0.2.1\\cmake_download",
+  "workbench.activityBar.visible": false,
   
 }

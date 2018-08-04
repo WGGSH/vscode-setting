@@ -1,15 +1,5 @@
 [
   {
-    "key": "ctrl+shift+k",
-    "command": "editor.action.deleteLines",
-    "when": "textInputFocus && !editorReadonly"
-  },
-  {
-    "key": "ctrl+shift+k",
-    "command": "-editor.action.deleteLines",
-    "when": "textInputFocus && !editorReadonly"
-  },
-  {
     "key": "ctrl+oem_plus",
     "command": "editor.action.fontZoomIn"
   },
