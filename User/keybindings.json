@@ -11,4 +11,14 @@
     "key": "ctrl+0",
     "command": "editor.action.fontZoomReset"
   },
+  {
+    "key": "shift+enter",
+    "command": "extension.jumpy-word",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "Escape",
+    "command": "extension.jumpy-exit",
+    "when": "editorTextFocus && jumpy.isJumpyMode"
+  }
 ]
