@@ -174,5 +174,6 @@
   "cmake.cmakePath": "C:\\Program Files\\download\\CMake\\bin\\cmake.exe",
   "cmake-tools-helper.cmake_download_path": "~\\.vscode\\extensions\\maddouri.cmake-tools-helper-0.2.1\\cmake_download",
   "workbench.activityBar.visible": false,
+  "explorer.confirmDragAndDrop": false,
   
 }
