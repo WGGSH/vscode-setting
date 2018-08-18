@@ -22,7 +22,7 @@
     "when": "editorTextFocus && jumpy.isJumpyMode"
   },
   {
-    "key": "ctrl+oem_4",
+    "key": "ctrl+oem_7",
     "command": "workbench.action.terminal.toggleTerminal"
   },
   {
