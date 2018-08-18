@@ -101,6 +101,7 @@
   "workbench.startupEditor": "none", // 「ようこそ」画面を非表示にする
   "workbench.colorCustomizations": { // カラーテーマに上書きする個別の設定
     "input.border": "#0077ff99", // 入力ボックスの境界色
+    "list.focusBackground": "#0077ff99",
     "menu.selectionBackground": "#0077ff99", // メニューバーで選択中の項目の背景色
     "menubar.selectionBackground": "#0077ff99", // メニューバーで選択中のメニュー項目の背景色
     "editor.selectionHighlightBackground": "#ffffff00", // エディタで選択領域と同要素の背景色
