@@ -100,19 +100,17 @@
   "workbench.iconTheme": "eq-material-theme-icons-light", // アイコンの適用
   "workbench.startupEditor": "none", // 「ようこそ」画面を非表示にする
   "workbench.colorCustomizations": { // カラーテーマに上書きする個別の設定
-    // "statusBar.background": "#000000", // ステータスバー背景色
-    // "statusBar.noFolderBackground": "#000000",
-    // "statusBar.foreground": "#ffffff", // ステータスバー前景色
-    // "statusBar.noFolderForeground": "#ffffff",
+    "input.border": "#0077ff99", // 入力ボックスの境界色
+    "menu.selectionBackground": "#0077ff99", // メニューバーで選択中の項目の背景色
+    "menubar.selectionBackground": "#0077ff99", // メニューバーで選択中のメニュー項目の背景色
+    "editor.selectionHighlightBackground": "#ffffff00", // エディタで選択領域と同要素の背景色
+    "statusBar.background": "#282c34", // ステータスバー背景色
+    "statusBar.foreground": "#ffffff", // ステータスバー前景色
     "statusBar.border": "#ffffff", // ステータスバーの境界線
-    // "sideBar.background": "#000000", // サイドバーの背景色
-    // "sideBar.foreground": "#ffffff", // サイドバーの前景色
-    // "sideBar.border": "#ffffff", // サイドバーの境界線
-    // "activityBar.background": "#000000", // アクティビティバーの背景色
-    // "activityBar.foreground": "#ffffff", // アクティビティバーの前景色
-    // "activityBar.border": "#ffffff", // アクティビティバーの境界線
-    // "editor.background": "#121817", // エディタ背景色
+    "sideBar.background": "#282c34", // サイドバーの背景色
+    "sideBar.border": "#ffffff", // サイドバーの境界線
     // "editor.lineHighlightBackground": "#002255", // 選択している行の強調色
+    "editor.lineHighlightBackground": "#0077ff44", // 選択している行の強調色
     "editor.selectionBackground": "#660000", // 選択領域の強調色
     "editorError.border": "#ff0000", // エラー部分の下線
     // "editorLineNumber.foreground": "#3399ffff",
@@ -120,13 +118,11 @@
     "editorLineNumber.activeForeground": "#ffffff", // 選択中の行番号の色
     "scrollbarSlider.background": "#0077ff99", // スクロールバーの色
     "scrollbarSlider.hoverBackground": "#00ccffcc", // 移動中のスクロールバーの色
-    // "tab.activeBorder": "#ffffff", // アクティブタブの下線
-    // "tab.inactiveForeground": "#999999", // 非選択タブの文字色
-    // "editorBracketMatch.background": "#ffff0077",// 対応する括弧の背景色
+    "editorGroupHeader.tabsBackground": "#282c34",
+    "tab.inactiveBackground": "#282c34",
+    "tab.activeBackground": "#0077ff99",
     "editorBracketMatch.border": "#0077ff99", // 対応する括弧の背景色
-    "editorSuggestWidget.selectedBackground": "#0044ff", // サジェスト欄,選択中項目の背景色
-    // "scrollbar.shadow": "#0077ff99",
-    // "editorLink.activeForeground": "#5555ce",
+    "editorSuggestWidget.selectedBackground": "#0077ff99", // サジェスト欄,選択中項目の背景色
   },
 
   // クラッシュレポートを送信する
@@ -145,7 +141,7 @@
   "extensions.ignoreRecommendations": false, // 推奨事項の通知をOFF
 
   // Git
-  "git.path": "C:\\wslgit.exe",
+  "git.path": "C:\\wslgit.exe", // WSLのGit
 
   // markdown
   "markdown.preview.breaks": true, // 改行を反映
@@ -193,4 +189,5 @@
   // jumpy
   "jumpy.lineRegexp": "^\\s*$", // Default
   "jumpy.wordRegexp": "\\w{2,}", // Default
+
 }
