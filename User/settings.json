@@ -190,4 +190,7 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "explorer.confirmDelete": false,
 
+  // jumpy
+  "jumpy.lineRegexp": "^\\s*$", // Default
+  "jumpy.wordRegexp": "\\w{2,}", // Default
 }
