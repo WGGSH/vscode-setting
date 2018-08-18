@@ -1,10 +1,10 @@
 {
   // ウィンドウ設定
-  "window.zoomLevel": -1, // 拡大率
-  "window.menuBarVisibility": "toggle", // Altキーでメニューバーの表示切り替え
+  "window.zoomLevel": 0, // 拡大率
+  "window.menuBarVisibility": "visible", // メニューバーを表示
   "window.title": "${dirty}${activeEditorShort} / ${rootName}", // タイトルバーの文字
   "window.closeWhenEmpty": false,
-  "window.titleBarStyle": "custom",
+  "window.titleBarStyle": "custom", // タイトルバーをOS固有のものでなくする
 
   // エディター設定
   "editor.codeLens": false,
@@ -25,7 +25,7 @@
   "editor.formatOnPaste": true, // コード整形
   // "editor.rulers": [100], // 右端のルーラー位置
   "editor.folding": true, // コードの折りたたみを許可
-  "editor.letterSpacing": -1, // 文字の間隔を詰める
+  "editor.letterSpacing": -1.3, // 文字の間隔を詰める
   "editor.lineNumbers": "on", // 行番号の表示
   "editor.minimap.enabled": true, // ミニマップの表示
   "editor.minimap.maxColumn": 40, // ミニマップの幅
@@ -40,8 +40,8 @@
   "editor.minimap.side": "right", // ミニマップを右に表示
   "editor.autoIndent": false, // オートインデント
   "editor.cursorStyle": "line", // カーソルの形状
-  "editor.cursorBlinking": "smooth", // カーソルの表示形式
-  "editor.cursorWidth": 5, // カーソル幅
+  "editor.cursorBlinking": "phase", // カーソルの表示形式
+  "editor.cursorWidth": 3, // カーソル幅
   "editor.emptySelectionClipboard": true, // 選択範囲無しでのコピーを許可
   "editor.links": true, // リンクをクリック可能に
   "editor.matchBrackets": true, // 対応する括弧の強調表示をオンに
@@ -51,8 +51,9 @@
   "editor.suggestLineHeight": 24, // サジェスト欄の行の高さ
 
   // ZenMode
-  "zenMode.centerLayout": false, 
+  "zenMode.centerLayout": false,
   "zenMode.hideTabs": false,
+  "zenMode.fullScreen": true,
 
   // ターミナル
   // "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe", // WSLへのパス
@@ -85,7 +86,7 @@
 
 
   // ワークベンチ設定
-  "workbench.editor.showTabs": true, // アクティビティバー(左端)を非表示に
+  "workbench.editor.showTabs": true, // タブを表示
   "workbench.editor.tabSizing": "shrink", // タブが多い場合,文字を非表示にしてもタブ表示を優先する
   "workbench.statusBar.visible": true, // ステータスバー(下端)を表示
   "workbench.sideBar.location": "left", // サイドバーを左に
@@ -120,9 +121,6 @@
     // "scrollbar.shadow": "#0077ff99",
     // "editorLink.activeForeground": "#5555ce",
   },
-
-  "glassit.alpha": 255,
-  "glassit.step": 1,
 
   // クラッシュレポートを送信する
   "telemetry.enableCrashReporter": true,
@@ -175,5 +173,7 @@
   "cmake-tools-helper.cmake_download_path": "~\\.vscode\\extensions\\maddouri.cmake-tools-helper-0.2.1\\cmake_download",
   "workbench.activityBar.visible": false,
   "explorer.confirmDragAndDrop": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.confirmDelete": false,
   
 }
