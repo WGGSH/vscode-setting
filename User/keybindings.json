@@ -20,5 +20,13 @@
     "key": "Escape",
     "command": "extension.jumpy-exit",
     "when": "editorTextFocus && jumpy.isJumpyMode"
+  },
+  {
+    "key": "ctrl+oem_4",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+oem_3",
+    "command": "-workbench.action.terminal.toggleTerminal"
   }
 ]

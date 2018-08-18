@@ -5,6 +5,7 @@
   "window.title": "${dirty}${activeEditorShort} / ${rootName}", // タイトルバーの文字
   "window.closeWhenEmpty": false,
   "window.titleBarStyle": "custom", // タイトルバーをOS固有のものでなくする
+  
 
   // エディター設定
   "editor.codeLens": false,
@@ -49,7 +50,10 @@
   "editor.mouseWheelZoom": false, // Ctrl+マウスホイールによるズームを無効化
   "editor.suggestFontSize": 24, // サジェストの文字サイズ
   "editor.suggestLineHeight": 24, // サジェスト欄の行の高さ
+  "editor.smoothScrolling": true, // スムーズにスクロールする
+  "editor.dragAndDrop": false, // ドラッグ&ドロップによる移動を無効にする
 
+  // breadcrumbs(階層リンク)
   "breadcrumbs.enabled": false, // 階層リンクを使用しない
 
   // ZenMode
@@ -93,7 +97,8 @@
   "workbench.statusBar.visible": true, // ステータスバー(下端)を表示
   "workbench.sideBar.location": "left", // サイドバーを左に
   "workbench.colorTheme": "One Dark Pro", // カラーテーマ
-  "workbench.iconTheme": "eq-material-theme-icons", // アイコンの適用
+  "workbench.iconTheme": "eq-material-theme-icons-light", // アイコンの適用
+  "workbench.startupEditor": "none", // 「ようこそ」画面を非表示にする
   "workbench.colorCustomizations": { // カラーテーマに上書きする個別の設定
     // "statusBar.background": "#000000", // ステータスバー背景色
     // "statusBar.noFolderBackground": "#000000",
@@ -127,6 +132,13 @@
   // クラッシュレポートを送信する
   "telemetry.enableCrashReporter": true,
   "telemetry.enableTelemetry": true,
+
+  // アウトライン
+  "outline.icons": true,
+  "outline.problems.badges": true,
+  "outline.problems.colors": true,
+  "outline.problems.enabled": true,
+
 
   // 拡張機能関連
   "extensions.autoUpdate": true, // 自動更新
