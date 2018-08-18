@@ -50,6 +50,8 @@
   "editor.suggestFontSize": 24, // サジェストの文字サイズ
   "editor.suggestLineHeight": 24, // サジェスト欄の行の高さ
 
+  "breadcrumbs.enabled": false, // 階層リンクを使用しない
+
   // ZenMode
   "zenMode.centerLayout": false,
   "zenMode.hideTabs": false,
@@ -175,5 +177,5 @@
   "explorer.confirmDragAndDrop": false,
   "liveServer.settings.donotShowInfoMsg": true,
   "explorer.confirmDelete": false,
-  
+
 }
